@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #EDFFFF;
+}
+
+.main_container {}
+
+.tittle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.sub_tittle {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+    margin: 10px;
+
+}
+
+.input {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 559px;
+    height: 63px;
+}
+
+.submit {
+    margin: 10px;
+    display: block;
+    width: 185px;
+    height: 48px;
+    background: #58C3FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    outline: none;
+}
+
+
+.output_container {
+    display: none;
+    width: 559px;
+    background-color: #58C3FF;
+    border-radius: 10px;
+}
+
+.word {
+    background-color: gray;
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 0;
+    padding: 20px;
+
+}
+
+.description {
+    padding: 20px;
+}
+.grammer ,.word_title{
+    color: white;
+}
+.grammer{
+    font-size: 26px;
+}
+.meaning{
+    color: green;
+}
+
+
+.danger{
+    display: none;
+    color: red;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- own css -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main_container">
+            <h1 class="tittle">word book</h1>
+            <span class="sub_tittle">Enter the word</span>
+            <input type="text" value="tree" id="userInput" class="input">
+          
+            <button class="submit" onclick="getMeaning()">search</button>
+
+        </div>
+        <span class="danger" id="erroMsg"> No data</span>
+        <div class="output_container" id="answer">
+            <div class="word">
+                <span id="answerTitle" class="word_title">...</span>
+            </div>
+            <div class="description">
+                <h4 id="answerGrammer" class="grammer">...</h4>
+                <span id="answerMeaning" class="meaning">...</span>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
