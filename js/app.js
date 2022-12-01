@@ -6,6 +6,7 @@ function getMeaning() {
     // get user input and log tp console
 
     var userInput = document.getElementById("userInput").value
+
     var answerDiv = document.getElementById("answer")
     var erroMsg = document.getElementById("erroMsg")
 
@@ -25,7 +26,6 @@ function getMeaning() {
             // 1. Object 2. Raw data
             // if data is raw
             var jsonData = JSON.parse(this.responseText)
-            
             answerTitle.innerHTML = jsonData[0].word
             answerGrammer.innerHTML = jsonData[0].meanings[0].partOfSpeech
             answerMeaning.innerHTML= jsonData[0].meanings[0].definitions[0].definition
